@@ -1,0 +1,7 @@
+# Before compiling -> brew install portaudio flac mad faad2 mpg123 libvorbis 
+# Only for macOS 64bit 
+CFLAGS = -Wall -fPIC -O2 -arch x86_64 -DDSD
+LDFLAGS = -Wl -arch x86_64 -lportaudio -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework Carbon
+EXECUTABLE = squeezelite-macOS-64bit
+
+include Makefile
