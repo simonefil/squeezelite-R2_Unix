@@ -1,4 +1,4 @@
-# Use gmake to compile on FreeBSD, before compiling -> sudo pkg install portaudio
+# Use gmake to compile on FreeBSD, before compiling -> sudo pkg install portaudio gmake flac libmad faad2 mpg123 libvorbis
 
 CFLAGS = -DDSD
 CPPFLAGS = -I/usr/local/include -I/usr/local/include/portaudio2
