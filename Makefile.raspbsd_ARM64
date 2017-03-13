@@ -1,4 +1,4 @@
-# before compiling -> pkg install portaudio gmake aarch64-binutils flac libmad faad2 mpg123 libvorbis
+# before compiling -> sudo pkg install portaudio gmake aarch64-binutils flac libmad faad2 mpg123 libvorbis
 
 CPPFLAGS = -I/usr/local/include -I/usr/local/include/portaudio2
 CFLAGS  = -Wall -fPIC -O3 -march=armv8-a+crc -DDSD
