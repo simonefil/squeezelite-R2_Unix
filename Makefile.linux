@@ -1,4 +1,4 @@
 OPTS= -DLINUX -DALSA -DDSD
-EXECUTABLE ?= squeezelite-R2-deb
+EXECUTABLE ?= squeezelite-R2-linux
 
 include Makefile
